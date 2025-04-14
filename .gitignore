@@ -1,0 +1,11 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/4 - BasicServiceCollection/obj
+/5 - AddScopedVsAddTransient/obj
+/BasicDependencyInjection/obj
+/DependencyInjection/obj
+/DependencyInjection/.vs/DependencyInjection
+/UsingInterfaces-LesserCoupling/obj

@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 - NoDependencyInjection-HighCoupling", "1 - NoDependencyInjection-HighCoupling.csproj", "{6954E1A7-A469-4142-A270-91DF95DC7B87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 - UsingInterfaces-LesserCoupling", "..\UsingInterfaces-LesserCoupling\2 - UsingInterfaces-LesserCoupling.csproj", "{1ADFC168-E179-42B9-B10C-B792893C0F89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3 - BasicDependencyInjection", "..\BasicDependencyInjection\3 - BasicDependencyInjection.csproj", "{35288CBE-2647-47EB-90B3-074EBC1FC236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4 - BasicServiceCollectionAndProvider", "..\4 - BasicServiceCollection\4 - BasicServiceCollectionAndProvider.csproj", "{1D93EF8D-BAD0-4930-8C28-F215F1F8B9F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5 - AddScopedVsAddTransient", "..\5 - AddScopedVsAddTransient\5 - AddScopedVsAddTransient.csproj", "{32AD2680-DD23-4D66-A520-54B45B2ACAF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6954E1A7-A469-4142-A270-91DF95DC7B87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6954E1A7-A469-4142-A270-91DF95DC7B87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6954E1A7-A469-4142-A270-91DF95DC7B87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6954E1A7-A469-4142-A270-91DF95DC7B87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ADFC168-E179-42B9-B10C-B792893C0F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ADFC168-E179-42B9-B10C-B792893C0F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ADFC168-E179-42B9-B10C-B792893C0F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ADFC168-E179-42B9-B10C-B792893C0F89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35288CBE-2647-47EB-90B3-074EBC1FC236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35288CBE-2647-47EB-90B3-074EBC1FC236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35288CBE-2647-47EB-90B3-074EBC1FC236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35288CBE-2647-47EB-90B3-074EBC1FC236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D93EF8D-BAD0-4930-8C28-F215F1F8B9F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D93EF8D-BAD0-4930-8C28-F215F1F8B9F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D93EF8D-BAD0-4930-8C28-F215F1F8B9F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D93EF8D-BAD0-4930-8C28-F215F1F8B9F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32AD2680-DD23-4D66-A520-54B45B2ACAF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32AD2680-DD23-4D66-A520-54B45B2ACAF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32AD2680-DD23-4D66-A520-54B45B2ACAF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32AD2680-DD23-4D66-A520-54B45B2ACAF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09FEA4F2-FDF9-49E5-AE1F-4C45AD752B81}
+	EndGlobalSection
+EndGlobal
